@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+   <Resource
+     name = "jdbc/user2"  type = "javax.sql.DataSource" 
+     driverClassName = "com.mysql.cj.jdbc.Driver"
+     username = "root" password = "Raut#0110"
+     
+     maxActive = "100" maxIdle = "30" maxWait = "10000"
+     />  <!-- Include the database name and not dataSource name -->
+     
+</Context>

@@ -1,0 +1,560 @@
+
+2024-05-30 18:25:39 Apache Commons Daemon procrun stderr initialized.
+WARNING: java.io.tmpdir directory does not exist
+30-May-2024 18:25:42.411 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [ssLProtocol] to [TLS]
+30-May-2024 18:25:42.422 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [storeType] to [pkcs12]
+30-May-2024 18:25:42.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+30-May-2024 18:25:42.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+30-May-2024 18:25:42.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Tomcat5
+30-May-2024 18:25:42.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Tomcat5
+30-May-2024 18:25:42.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Tomcat5
+30-May-2024 18:25:42.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Tomcat5
+30-May-2024 18:25:42.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=c:\Tomcat5\endorsed
+30-May-2024 18:25:42.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Tomcat5\temp
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Tomcat5\conf\logging.properties
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-May-2024 18:25:42.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-May-2024 18:25:42.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-May-2024 18:25:42.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-May-2024 18:25:42.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-May-2024 18:25:42.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-May-2024 18:25:42.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-May-2024 18:25:42.489 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [c:\Tomcat5\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-20\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+30-May-2024 18:25:43.022 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8509"]
+30-May-2024 18:25:43.074 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8543"]
+30-May-2024 18:25:43.607 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-8543], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [conf/OAuth2Client.jks] using alias [client] with trust store [conf/trust.jks]
+30-May-2024 18:25:43.610 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1423] milliseconds
+30-May-2024 18:25:43.649 WARNING [main] java.util.ArrayList.forEach Name = dsUsers Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+30-May-2024 18:25:43.649 WARNING [main] java.util.ArrayList.forEach Name = dsUsers Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+30-May-2024 18:25:43.650 INFO [main] java.util.ArrayList.forEach Name = dsUsers Ignoring unknown property: value of "jdbc/dsUsers" for "global" property
+30-May-2024 18:25:43.733 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-May-2024 18:25:43.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+30-May-2024 18:25:43.760 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Tomcat5\webapps\OAuth2Client.war]
+30-May-2024 18:25:47.237 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:47.338 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Tomcat5\webapps\OAuth2Client.war] has finished in [3,577] ms
+30-May-2024 18:25:47.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\docs]
+30-May-2024 18:25:47.749 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:47.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\docs] has finished in [413] ms
+30-May-2024 18:25:47.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\examples]
+30-May-2024 18:25:49.567 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:49.631 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-May-2024 18:25:49.632 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-May-2024 18:25:49.633 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2927d781')
+30-May-2024 18:25:49.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\examples] has finished in [1,893] ms
+30-May-2024 18:25:49.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\host-manager]
+30-May-2024 18:25:50.022 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:50.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\host-manager] has finished in [380] ms
+30-May-2024 18:25:50.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\manager]
+30-May-2024 18:25:50.400 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:50.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\manager] has finished in [374] ms
+30-May-2024 18:25:50.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\ROOT]
+30-May-2024 18:25:50.775 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2024 18:25:50.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\ROOT] has finished in [376] ms
+30-May-2024 18:25:50.783 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+30-May-2024 18:25:50.784 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+30-May-2024 18:25:50.785 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8509"]
+30-May-2024 18:25:50.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8543"]
+30-May-2024 18:25:50.816 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7206] milliseconds
+30-May-2024 18:26:58.552 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet reached to doGet
+30-May-2024 18:26:58.567 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet session_idDEE48BA085D4F4DBFE367B5E4FFEE45A
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+30-May-2024 18:26:59.087 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet ClientRepository
+30-May-2024 18:26:59.260 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+30-May-2024 18:26:59.265 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+30-May-2024 18:26:59.288 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+30-May-2024 18:27:02.079 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet code: ha5u7qMwyHP2eAh8tsWkTJh0Fh4zAouFnwqMpa5YTAg state: TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww session id: EB50A863C7FDC288C876AF4BADA99C55 user: Aditi
+30-May-2024 18:27:02.080 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet state: TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww
+30-May-2024 18:27:02.081 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet code ha5u7qMwyHP2eAh8tsWkTJh0Fh4zAouFnwqMpa5YTAg state TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww
+30-May-2024 18:27:02.081 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+30-May-2024 18:27:02.120 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=ha5u7qMwyHP2eAh8tsWkTJh0Fh4zAouFnwqMpa5YTAg&grant_type=authorization_code
+30-May-2024 18:27:12.704 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet reached to doGet
+30-May-2024 18:27:12.705 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet session_idDEE48BA085D4F4DBFE367B5E4FFEE45A
+30-May-2024 18:27:12.717 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet ClientRepository
+30-May-2024 18:27:12.749 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+30-May-2024 18:27:12.750 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+30-May-2024 18:27:12.751 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=W7K__kL6spjb4BcJ_2hYW6Kwaixx4AI9ijMLDEqTuwE&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+30-May-2024 18:27:14.555 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet code: BUWQj_I9m2lJ8y7va5Z8ap9R0ZfNAdvOr47KPgYbvvc state: W7K__kL6spjb4BcJ_2hYW6Kwaixx4AI9ijMLDEqTuwE session id: EB50A863C7FDC288C876AF4BADA99C55 user: Aditi
+30-May-2024 18:27:14.557 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet state: TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww
+30-May-2024 18:28:40.187 INFO [https-jsse-nio-8543-exec-2] UserRequestServlet.doGet reached to doGet
+30-May-2024 18:28:40.189 INFO [https-jsse-nio-8543-exec-2] UserRequestServlet.doGet session_id116C9B87E5C01BC3C0FD008EE872D7A9
+30-May-2024 18:28:40.192 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet ClientRepository
+30-May-2024 18:28:40.196 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+30-May-2024 18:28:40.197 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+30-May-2024 18:28:40.198 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=SjvgWd7cB8P6xdS3ed5-7pQUWAAI3bkC8YpWRgN2DYE&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+30-May-2024 18:28:42.229 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet code: 7EDrIM5zdp8KnoTJ5K6jCS8V9MJNlYbTThL_ghnL-hU state: SjvgWd7cB8P6xdS3ed5-7pQUWAAI3bkC8YpWRgN2DYE session id: 2297ECC00E1379334037A316D7433F52 user: Aditi
+30-May-2024 18:28:42.230 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet state: SjvgWd7cB8P6xdS3ed5-7pQUWAAI3bkC8YpWRgN2DYE
+30-May-2024 18:28:42.231 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet code 7EDrIM5zdp8KnoTJ5K6jCS8V9MJNlYbTThL_ghnL-hU state SjvgWd7cB8P6xdS3ed5-7pQUWAAI3bkC8YpWRgN2DYE
+30-May-2024 18:28:42.232 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+30-May-2024 18:28:42.236 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=7EDrIM5zdp8KnoTJ5K6jCS8V9MJNlYbTThL_ghnL-hU&grant_type=authorization_code
+30-May-2024 18:33:10.807 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet reached to doGet
+30-May-2024 18:33:10.808 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet session_idE380058E892FB9AAF7CDA905DF2FD175
+30-May-2024 18:33:10.813 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet ClientRepository
+30-May-2024 18:33:10.817 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+30-May-2024 18:33:10.817 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+30-May-2024 18:33:10.818 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=-LJjkMphFxLsAMR1ql5ggiwcnUJ05N_Ftjh3j7rYgpA&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+30-May-2024 18:33:12.693 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code: 8rjGiRM9XW17QkiorPtWvcxU2VehoaD0cIPKY7pW8gQ state: -LJjkMphFxLsAMR1ql5ggiwcnUJ05N_Ftjh3j7rYgpA session id: C06381D292F4B2E1B69E4BAED2243677 user: Aditi
+30-May-2024 18:33:12.695 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet state: -LJjkMphFxLsAMR1ql5ggiwcnUJ05N_Ftjh3j7rYgpA
+30-May-2024 18:33:12.695 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code 8rjGiRM9XW17QkiorPtWvcxU2VehoaD0cIPKY7pW8gQ state -LJjkMphFxLsAMR1ql5ggiwcnUJ05N_Ftjh3j7rYgpA
+30-May-2024 18:33:12.697 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+30-May-2024 18:33:12.702 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=8rjGiRM9XW17QkiorPtWvcxU2VehoaD0cIPKY7pW8gQ&grant_type=authorization_code
+30-May-2024 18:33:13.091 INFO [https-jsse-nio-8543-exec-8] GetCodeServlet.doPost response code : 200
+31-May-2024 17:49:17.996 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet reached to doGet
+31-May-2024 17:49:18.032 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet session_id43AC49494FC1CFBB987CBF6233E1F1BC
+31-May-2024 17:49:18.041 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 17:49:18.096 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 17:49:18.097 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 17:49:18.099 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=SVBW-JzVA8UW7QqW0-zRkuO9ZmzXYftea1eArVsf3Bc&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 17:49:19.947 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code: 4a-vaFW7pEk7ApX2sHJPye5kwET3vsA9USh3u-pVLV4 state: SVBW-JzVA8UW7QqW0-zRkuO9ZmzXYftea1eArVsf3Bc session id: A9EB8A06DF361F31EB51855FEAA1FA30 user: Aditi
+31-May-2024 17:49:19.950 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet state: SVBW-JzVA8UW7QqW0-zRkuO9ZmzXYftea1eArVsf3Bc
+31-May-2024 17:49:19.950 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code 4a-vaFW7pEk7ApX2sHJPye5kwET3vsA9USh3u-pVLV4 state SVBW-JzVA8UW7QqW0-zRkuO9ZmzXYftea1eArVsf3Bc
+31-May-2024 17:49:19.952 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+31-May-2024 17:49:19.958 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=4a-vaFW7pEk7ApX2sHJPye5kwET3vsA9USh3u-pVLV4&grant_type=authorization_code
+31-May-2024 17:50:40.665 INFO [https-jsse-nio-8543-exec-9] UserRequestServlet.doGet reached to doGet
+31-May-2024 17:50:40.668 INFO [https-jsse-nio-8543-exec-9] UserRequestServlet.doGet session_id68860DE046A6951D99C79FA1A6DE8555
+31-May-2024 17:50:40.769 INFO [https-jsse-nio-8543-exec-9] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 17:50:40.796 INFO [https-jsse-nio-8543-exec-9] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 17:50:40.798 INFO [https-jsse-nio-8543-exec-9] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 17:50:40.800 INFO [https-jsse-nio-8543-exec-9] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=rw0AieCcgwNnx4OzcqJEw8iSdglCjPL2Omf4stH0u0Y&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 17:50:43.397 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code: 3g_aNVcZsEmruyHt0Lmn-YSGfJ9af6icpbGzn24BT5I state: rw0AieCcgwNnx4OzcqJEw8iSdglCjPL2Omf4stH0u0Y session id: F9FE152157FB8B40CA5554D7D22D902F user: Aditi
+31-May-2024 17:50:43.398 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet state: rw0AieCcgwNnx4OzcqJEw8iSdglCjPL2Omf4stH0u0Y
+31-May-2024 17:50:43.399 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code 3g_aNVcZsEmruyHt0Lmn-YSGfJ9af6icpbGzn24BT5I state rw0AieCcgwNnx4OzcqJEw8iSdglCjPL2Omf4stH0u0Y
+31-May-2024 17:50:43.399 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+31-May-2024 17:50:43.402 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=3g_aNVcZsEmruyHt0Lmn-YSGfJ9af6icpbGzn24BT5I&grant_type=authorization_code
+31-May-2024 17:50:43.693 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doPost response code : 200
+31-May-2024 19:01:17.457 INFO [https-jsse-nio-8543-exec-2] UserRequestServlet.doGet reached to doGet
+31-May-2024 19:01:17.505 INFO [https-jsse-nio-8543-exec-2] UserRequestServlet.doGet session_idB4AFDA4817895A46AB80B88EA6788421
+31-May-2024 19:01:17.520 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 19:01:17.630 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 19:01:17.632 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 19:01:17.638 INFO [https-jsse-nio-8543-exec-2] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=7pdWJh_Q_EzeSqJ1NdV2lSLobyc4TuXaiRB4_k5T9LU&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 19:01:19.448 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code: La3gb6l3bP3fO7ajmwJY17jH3VOBVpqzii0qLIu38zg state: 7pdWJh_Q_EzeSqJ1NdV2lSLobyc4TuXaiRB4_k5T9LU session id: 14E81A3EECDC32A5881D1CA28CB3F39F user: Aditi
+31-May-2024 19:01:19.452 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet state: 7pdWJh_Q_EzeSqJ1NdV2lSLobyc4TuXaiRB4_k5T9LU
+31-May-2024 19:01:19.453 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code La3gb6l3bP3fO7ajmwJY17jH3VOBVpqzii0qLIu38zg state 7pdWJh_Q_EzeSqJ1NdV2lSLobyc4TuXaiRB4_k5T9LU
+31-May-2024 19:01:19.453 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+31-May-2024 19:01:19.460 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=La3gb6l3bP3fO7ajmwJY17jH3VOBVpqzii0qLIu38zg&grant_type=authorization_code
+31-May-2024 19:02:14.678 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet reached to doGet
+31-May-2024 19:02:14.682 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet session_id55AC58485058FC8F23C202BD94A82EA3
+31-May-2024 19:02:14.832 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 19:02:14.853 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 19:02:14.855 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 19:02:14.857 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=fR2RjSM2WuKO0S87vvUWMrCeYr5WDkSaSvgzWG3IsAM&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 19:02:35.035 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet reached to doGet
+31-May-2024 19:02:35.037 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet session_id55AC58485058FC8F23C202BD94A82EA3
+31-May-2024 19:02:35.041 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 19:02:35.044 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 19:02:35.049 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 19:02:35.051 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=NsvrL1BmVEITIj64Nd3ekG9IY4yUUt52buLjuDtGt7o&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 19:02:37.047 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet code: 9ipRl1-ic5W3ZXUJC34OQ_h5FsRd3eT1KK81sYfTviI state: NsvrL1BmVEITIj64Nd3ekG9IY4yUUt52buLjuDtGt7o session id: E931EEAF177ADD3EA55970FF37032F64 user: Aditi
+31-May-2024 19:02:37.048 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet state: fR2RjSM2WuKO0S87vvUWMrCeYr5WDkSaSvgzWG3IsAM
+31-May-2024 19:03:47.033 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet reached to doGet
+31-May-2024 19:03:47.035 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet session_idCD32D8BE6075DD25B232458386477723
+31-May-2024 19:03:47.038 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 19:03:47.042 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 19:03:47.042 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 19:03:47.044 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=pxmmG47c82zbeMcwyr8UamosoDYgEPKd1mTcNpUp3Uw&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 19:03:48.799 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet code: skn-4H2BTbevMSDp7H_fHXjFhAQVFt0MF-wKpvPEVps state: pxmmG47c82zbeMcwyr8UamosoDYgEPKd1mTcNpUp3Uw session id: 30BD3CE35E7FFADE5F9BFEC530883ED7 user: Aditi
+31-May-2024 19:03:48.800 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet state: pxmmG47c82zbeMcwyr8UamosoDYgEPKd1mTcNpUp3Uw
+31-May-2024 19:03:48.802 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet code skn-4H2BTbevMSDp7H_fHXjFhAQVFt0MF-wKpvPEVps state pxmmG47c82zbeMcwyr8UamosoDYgEPKd1mTcNpUp3Uw
+31-May-2024 19:03:48.803 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+31-May-2024 19:03:48.808 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=skn-4H2BTbevMSDp7H_fHXjFhAQVFt0MF-wKpvPEVps&grant_type=authorization_code
+31-May-2024 19:05:18.543 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet reached to doGet
+31-May-2024 19:05:18.546 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet session_id609672A1634A37DC119871DA44ADEC72
+31-May-2024 19:05:18.549 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet ClientRepository
+31-May-2024 19:05:18.577 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+31-May-2024 19:05:18.579 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+31-May-2024 19:05:18.580 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=8CiKLY4WYlFbnjv6n9KZGLwWn7cZXX9f288y1AvnQmE&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+31-May-2024 19:05:20.161 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet code: pFGCRMgx1CSe5JtgdIWg2KZK3Pvcc6FQ5kbnoD6hltE state: 8CiKLY4WYlFbnjv6n9KZGLwWn7cZXX9f288y1AvnQmE session id: 48512A49039F8530D9E185AD6F153370 user: Aditi
+31-May-2024 19:05:20.162 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet state: 8CiKLY4WYlFbnjv6n9KZGLwWn7cZXX9f288y1AvnQmE
+31-May-2024 19:05:20.163 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet code pFGCRMgx1CSe5JtgdIWg2KZK3Pvcc6FQ5kbnoD6hltE state 8CiKLY4WYlFbnjv6n9KZGLwWn7cZXX9f288y1AvnQmE
+31-May-2024 19:05:20.164 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+31-May-2024 19:05:20.168 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=pFGCRMgx1CSe5JtgdIWg2KZK3Pvcc6FQ5kbnoD6hltE&grant_type=authorization_code
+31-May-2024 19:05:20.449 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doPost response code : 200
+31-May-2024 19:32:21.536 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/OAuth2Client]
+31-May-2024 19:32:22.804 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [BufferPoolPruner-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.808 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='6658779a5aa6613bf8194777', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.809 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='6658779a5aa6613bf8194777', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.809 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.809 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='6658779e5aa6613bf8194779', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.809 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='6658779e5aa6613bf8194779', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.809 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.810 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='665877a85aa6613bf819477a', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.810 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='665877a85aa6613bf819477a', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.810 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-4-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.810 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='665877aa5aa6613bf819477c', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.810 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='665877aa5aa6613bf819477c', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.811 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-5-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.811 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='665878025aa6613bf819477e', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.811 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='665878025aa6613bf819477e', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.811 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-6-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.812 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='665879105aa6613bf8194780', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.812 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='665879105aa6613bf8194780', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.812 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.813 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='6659c0985aa6613bf8194782', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.813 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='6659c0985aa6613bf8194782', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.813 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-8-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.813 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='6659d15e5aa6613bf8194785', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.813 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='6659d15e5aa6613bf8194785', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.814 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-9-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.814 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-ClusterId{value='6659d1755aa6613bf8194788', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:275)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:175)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:200)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:739)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:603)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:451)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:404)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:224)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:156)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.814 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [cluster-rtt-ClusterId{value='6659d1755aa6613bf8194788', description='null'}-oauth2client:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:442)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:68)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:413)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.814 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [MaintenanceTimer-10-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.815 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:22.824 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@d6db72]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.825 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@c11b305]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.825 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@4bea2f76]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.825 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@214b69e8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.826 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@17703bf8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.826 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@16783b88]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.827 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@cf337ae]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.827 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@760d1bf1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.827 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [OAuth2Client] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bac3ce7]) and a value of type [com.mongodb.client.internal.MongoDatabaseImpl] (value [com.mongodb.client.internal.MongoDatabaseImpl@60b45133]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-May-2024 19:32:22.910 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Tomcat5\webapps\OAuth2Client.war]
+31-May-2024 19:32:25.950 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-May-2024 19:32:25.972 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Tomcat5\webapps\OAuth2Client.war] has finished in [3,056] ms
+31-May-2024 19:32:27.812 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:58.441 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8509"]
+31-May-2024 19:32:58.461 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8543"]
+31-May-2024 19:32:58.475 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-May-2024 19:32:58.478 SEVERE [Thread-2] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+31-May-2024 19:32:58.488 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+31-May-2024 19:32:58.489 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+31-May-2024 19:32:59.392 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [OAuth2Client] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:465)
+ java.base/java.io.File.getCanonicalPath(File.java:626)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:94)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:106)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:954)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1078)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-May-2024 19:32:59.402 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8509"]
+31-May-2024 19:32:59.415 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8543"]
+31-May-2024 19:32:59.452 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8509"]
+31-May-2024 19:32:59.452 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8543"]

@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/May/2024:18:26:59 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:27:02 +0530] "GET /OAuth2Client/GetCode?code=ha5u7qMwyHP2eAh8tsWkTJh0Fh4zAouFnwqMpa5YTAg&state=TAqlbu-WI_qCQIlLoPuFWsh9j7PlbnJophcpHdfRwww&sessionid=EB50A863C7FDC288C876AF4BADA99C55&user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:27:12 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:27:14 +0530] "GET /OAuth2Client/GetCode?code=BUWQj_I9m2lJ8y7va5Z8ap9R0ZfNAdvOr47KPgYbvvc&state=W7K__kL6spjb4BcJ_2hYW6Kwaixx4AI9ijMLDEqTuwE&sessionid=EB50A863C7FDC288C876AF4BADA99C55&user=Aditi HTTP/1.1" 200 18
+127.0.0.1 - - [30/May/2024:18:28:40 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:28:42 +0530] "GET /OAuth2Client/GetCode?code=7EDrIM5zdp8KnoTJ5K6jCS8V9MJNlYbTThL_ghnL-hU&state=SjvgWd7cB8P6xdS3ed5-7pQUWAAI3bkC8YpWRgN2DYE&sessionid=2297ECC00E1379334037A316D7433F52&user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:33:10 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:33:12 +0530] "GET /OAuth2Client/GetCode?code=8rjGiRM9XW17QkiorPtWvcxU2VehoaD0cIPKY7pW8gQ&state=-LJjkMphFxLsAMR1ql5ggiwcnUJ05N_Ftjh3j7rYgpA&sessionid=C06381D292F4B2E1B69E4BAED2243677&user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [30/May/2024:18:33:13 +0530] "POST /OAuth2Client/GetCode HTTP/1.1" 200 1919

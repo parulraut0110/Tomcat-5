@@ -1,0 +1,2 @@
+127.0.0.1 - - [05/Mar/2024:20:18:12 +0530] "GET /OAuth2Client/ HTTP/1.1" 200 258
+127.0.0.1 - - [05/Mar/2024:20:18:22 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -

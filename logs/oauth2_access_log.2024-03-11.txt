@@ -1,0 +1,2 @@
+127.0.0.1 - - [11/Mar/2024:20:22:31 +0530] "POST /OAuth2Server/RegstrEndPoint HTTP/1.1" 404 782
+127.0.0.1 - - [11/Mar/2024:20:23:11 +0530] "POST /OAuth2Server/RegstrEndPoint HTTP/1.1" 404 782

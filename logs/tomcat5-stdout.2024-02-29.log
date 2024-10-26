@@ -1,0 +1,18 @@
+
+2024-02-29 19:47:05 Apache Commons Daemon procrun stdout initialized.
+
+2024-02-29 19:48:00 Apache Commons Daemon procrun stdout initialized.
+
+2024-02-29 20:42:18 Apache Commons Daemon procrun stdout initialized.
+
+2024-02-29 20:48:42 Apache Commons Daemon procrun stdout initialized.
+{
+    "@id": "http://example.org/subject",
+    "@type": "http://example.org/object"
+}
+{
+    "@id": "http://example.org/subject",
+    "@type": "http://example.org/object"
+}
+JSON-LD representation:
+<ModelCom   {http://example.org/subject @http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://example.org/object} |  [http://example.org/subject, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://example.org/object]>

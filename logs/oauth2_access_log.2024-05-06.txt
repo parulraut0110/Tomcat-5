@@ -1,0 +1,15 @@
+127.0.0.1 - - [06/May/2024:20:40:59 +0530] "GET /OAuth2Client/ HTTP/1.1" 200 258
+127.0.0.1 - - [06/May/2024:20:41:01 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2024:21:03:00 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2024:21:10:35 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 218
+127.0.0.1 - - [06/May/2024:21:15:44 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 218
+127.0.0.1 - - [06/May/2024:21:23:08 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 218
+127.0.0.1 - - [06/May/2024:21:33:04 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 218
+127.0.0.1 - - [06/May/2024:21:39:26 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 315
+127.0.0.1 - - [06/May/2024:21:43:03 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 218
+127.0.0.1 - - [06/May/2024:21:45:39 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 218
+127.0.0.1 - - [06/May/2024:21:51:29 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 298
+127.0.0.1 - - [06/May/2024:21:53:05 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 487
+127.0.0.1 - - [06/May/2024:21:59:43 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 487
+127.0.0.1 - - [06/May/2024:22:03:00 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 708
+127.0.0.1 - - [06/May/2024:22:05:55 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 487

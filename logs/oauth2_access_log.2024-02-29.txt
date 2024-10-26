@@ -1,0 +1,17 @@
+127.0.0.1 - - [29/Feb/2024:19:48:34 +0530] "GET / HTTP/1.1" 200 11428
+127.0.0.1 - - [29/Feb/2024:19:48:34 +0530] "GET /tomcat.svg HTTP/1.1" 200 68761
+127.0.0.1 - - [29/Feb/2024:19:48:34 +0530] "GET /tomcat.css HTTP/1.1" 200 5895
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /asf-logo-wide.svg HTTP/1.1" 200 27530
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [29/Feb/2024:19:48:35 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [29/Feb/2024:20:43:30 +0530] "GET /OAuth2Client/ HTTP/1.1" 200 255
+127.0.0.1 - - [29/Feb/2024:20:43:35 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 9341
+127.0.0.1 - - [29/Feb/2024:20:51:38 +0530] "GET /Json_ldTest HTTP/1.1" 302 -
+127.0.0.1 - - [29/Feb/2024:20:51:38 +0530] "GET /Json_ldTest/ HTTP/1.1" 200 245
+127.0.0.1 - - [29/Feb/2024:20:51:42 +0530] "GET /Json_ldTest/Json_ldServlet? HTTP/1.1" 200 97
+127.0.0.1 - - [29/Feb/2024:21:14:44 +0530] "GET /OAuth2Client/ HTTP/1.1" 304 -
+127.0.0.1 - - [29/Feb/2024:21:14:56 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 9341
+127.0.0.1 - - [29/Feb/2024:21:30:21 +0530] "GET / HTTP/1.1" 200 11428

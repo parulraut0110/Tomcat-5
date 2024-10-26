@@ -1,0 +1,33 @@
+
+		BearerAccessToken registrationToken = null;
+		
+		ClientMetadata clientRegstrData = new ClientMetadata();
+		//clientRegstrData.setGrantTypes(Collections.singleton(GrantType.AUTHORIZATION_CODE));
+		clientRegstrData.setGrantTypes(Set.of(GrantType.AUTHORIZATION_CODE));
+		
+		clientRegstrData.setRedirectionURI(new URI(""));
+		
+		clientRegstrData.setName("Data Miner");
+		
+		ClientRegistrationRequest regRequest = new ClientRegistrationRequest(
+				regstrEndPoint, clientRegstrData, registrationToken
+				);
+		
+		HTTPResponse httpResponse = regRequest.toHTTPRequest().send();
+		ClientRegistrationResponse regResponse;
+		
+			regResponse = ClientRegistrationResponse.parse(httpResponse);
+		
+		
+		if(!regResponse.indicatesSuccess()) {
+			ClientRegistrationErrorResponse errorResponse = (ClientRegistrationErrorResponse)regResponse;
+			System.out.println("error response : " + errorResponse.getErrorObject());
+			return;
+		}
+		
+		} catch (URISyntaxException | ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}

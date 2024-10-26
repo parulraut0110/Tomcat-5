@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/May/2024:19:59:47 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2024:20:02:42 +0530] "GET /OAuth2Client/request?user=Aditi HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2024:20:02:48 +0530] "GET /oauth2client/GetCode?code=8Duvs03jZBOLd0wgGyiNMRLl_-qjp7wAJHjTDdIaGEw&state=IUdZnaRlCS0WMgnw8KAVUmyhZPkxBHUN6c68MJe6hPY HTTP/1.1" 404 775
+127.0.0.1 - - [22/May/2024:20:02:48 +0530] "GET /favicon.ico HTTP/1.1" 200 21630

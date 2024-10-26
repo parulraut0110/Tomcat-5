@@ -1,0 +1,21 @@
+03-Jun-2024 20:03:55.950 INFO [https-jsse-nio-8543-exec-4] UserRequestServlet.doGet reached to doGet
+03-Jun-2024 20:03:56.021 INFO [https-jsse-nio-8543-exec-4] UserRequestServlet.doGet session_idEABA0A758249CB3796817C0EC77A8965
+03-Jun-2024 20:03:56.077 INFO [https-jsse-nio-8543-exec-4] UserAuthorizationHandler.doGet ClientRepository
+03-Jun-2024 20:03:56.124 INFO [https-jsse-nio-8543-exec-4] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+03-Jun-2024 20:03:56.127 INFO [https-jsse-nio-8543-exec-4] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+03-Jun-2024 20:03:56.129 INFO [https-jsse-nio-8543-exec-4] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+03-Jun-2024 20:03:58.808 INFO [https-jsse-nio-8543-exec-8] GetCodeServlet.doGet code: dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU state: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw session id: 947C0A80D0443C67C1A918F67CA9FBBC user: Aditistate: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:03:58.810 INFO [https-jsse-nio-8543-exec-8] GetCodeServlet.doGet code dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU state z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:03:58.811 INFO [https-jsse-nio-8543-exec-8] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+03-Jun-2024 20:03:58.824 INFO [https-jsse-nio-8543-exec-8] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU&grant_type=authorization_code
+03-Jun-2024 20:04:29.161 INFO [https-jsse-nio-8543-exec-3] GetCodeServlet.doPost response code : 200
+03-Jun-2024 20:05:28.050 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code: dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU state: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw session id: 947C0A80D0443C67C1A918F67CA9FBBC user: Aditistate: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:05:28.052 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet code dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU state z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:05:28.053 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+03-Jun-2024 20:05:28.056 INFO [https-jsse-nio-8543-exec-6] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=dtd3OPiqV9YYWjTr5wrrdDYY2H5kD95PHb-65Fm8TQU&grant_type=authorization_code
+03-Jun-2024 20:05:28.195 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doPost response code : 200
+03-Jun-2024 20:05:37.301 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet code: 96tWuD0Z7bsRERzbIb3Xa6yvUM3nHR_Oq9lpTSKjmpo state: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw session id: 947C0A80D0443C67C1A918F67CA9FBBC user: Aditistate: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:05:37.304 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet code 96tWuD0Z7bsRERzbIb3Xa6yvUM3nHR_Oq9lpTSKjmpo state z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+03-Jun-2024 20:05:37.305 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+03-Jun-2024 20:05:37.308 INFO [https-jsse-nio-8543-exec-4] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=96tWuD0Z7bsRERzbIb3Xa6yvUM3nHR_Oq9lpTSKjmpo&grant_type=authorization_code
+03-Jun-2024 20:05:50.133 INFO [https-jsse-nio-8543-exec-7] GetCodeServlet.doPost response code : 200

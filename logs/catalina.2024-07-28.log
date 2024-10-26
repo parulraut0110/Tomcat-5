@@ -1,0 +1,123 @@
+28-Jul-2024 18:26:41.364 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [ssLProtocol] to [TLS]
+28-Jul-2024 18:26:41.375 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [storeType] to [pkcs12]
+28-Jul-2024 18:26:41.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Jul-2024 18:26:41.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Jul-2024 18:26:41.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Jul-2024 18:26:41.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Tomcat5
+28-Jul-2024 18:26:41.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Tomcat5
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Tomcat5
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Tomcat5
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=c:\Tomcat5\endorsed
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Tomcat5\temp
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Tomcat5\conf\logging.properties
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2024 18:26:41.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2024 18:26:41.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+28-Jul-2024 18:26:41.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+28-Jul-2024 18:26:41.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+28-Jul-2024 18:26:41.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+28-Jul-2024 18:26:41.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [c:\Tomcat5\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-20\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+28-Jul-2024 18:26:41.738 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8509"]
+28-Jul-2024 18:26:41.761 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8543"]
+28-Jul-2024 18:26:42.185 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-8543], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [conf/OAuth2Client.jks] using alias [client] with trust store [conf/trust.jks]
+28-Jul-2024 18:26:42.187 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [970] milliseconds
+28-Jul-2024 18:26:42.207 WARNING [main] java.util.ArrayList.forEach Name = dsUsers Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Jul-2024 18:26:42.207 WARNING [main] java.util.ArrayList.forEach Name = dsUsers Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Jul-2024 18:26:42.207 INFO [main] java.util.ArrayList.forEach Name = dsUsers Ignoring unknown property: value of "jdbc/dsUsers" for "global" property
+28-Jul-2024 18:26:42.260 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2024 18:26:42.260 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Jul-2024 18:26:42.283 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Tomcat5\webapps\OAuth2Client.war]
+28-Jul-2024 18:26:45.969 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:46.061 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Tomcat5\webapps\OAuth2Client.war] has finished in [3,777] ms
+28-Jul-2024 18:26:46.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\docs]
+28-Jul-2024 18:26:46.458 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:46.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\docs] has finished in [398] ms
+28-Jul-2024 18:26:46.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\examples]
+28-Jul-2024 18:26:47.526 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:47.578 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Jul-2024 18:26:47.578 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Jul-2024 18:26:47.580 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@735a3e0d')
+28-Jul-2024 18:26:47.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\examples] has finished in [1,130] ms
+28-Jul-2024 18:26:47.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\host-manager]
+28-Jul-2024 18:26:47.901 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:47.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\host-manager] has finished in [315] ms
+28-Jul-2024 18:26:47.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\manager]
+28-Jul-2024 18:26:48.260 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:48.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\manager] has finished in [357] ms
+28-Jul-2024 18:26:48.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Tomcat5\webapps\ROOT]
+28-Jul-2024 18:26:48.565 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2024 18:26:48.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Tomcat5\webapps\ROOT] has finished in [304] ms
+28-Jul-2024 18:26:48.570 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+28-Jul-2024 18:26:48.571 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+28-Jul-2024 18:26:48.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8509"]
+28-Jul-2024 18:26:48.594 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8543"]
+28-Jul-2024 18:26:48.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6409] milliseconds
+28-Jul-2024 18:27:20.810 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 18:27:20.822 INFO [https-jsse-nio-8543-exec-10] UserRequestServlet.doGet session_id59D99CF2171DBB09CE799530B86456C8
+28-Jul-2024 18:27:21.170 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 18:27:21.389 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 18:27:21.393 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 18:27:21.410 INFO [https-jsse-nio-8543-exec-10] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=fEOYOUEj1rmlPlK371R6FvfpH54eMgh9uSAvAbtP4mo&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 18:27:25.871 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doGet code: k2CYWOPrjmRkwemhAE1al7N0ToFy5hK8YAb-NC2oV90 state: fEOYOUEj1rmlPlK371R6FvfpH54eMgh9uSAvAbtP4mo session id: 2E4A764759B29D836BFFCF2905AB6BB8 user: Aditistate: z5AwM5pCGUn9Np63uGn6b6CpiX3TufEo5nr40MrymUw
+28-Jul-2024 18:30:40.297 INFO [https-jsse-nio-8543-exec-3] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 18:30:40.304 INFO [https-jsse-nio-8543-exec-3] UserRequestServlet.doGet session_id08B43EA6D432C284F5CE51D22266D73A
+28-Jul-2024 18:30:40.313 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 18:30:40.329 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 18:30:40.330 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 18:30:40.331 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 18:30:59.698 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code: N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE state: gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk session id: B45F67456958CCEFD1E235CE40D7014C user: Aditistate: gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk
+28-Jul-2024 18:30:59.700 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE state gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk
+28-Jul-2024 18:30:59.701 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+28-Jul-2024 18:30:59.761 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE&grant_type=authorization_code
+28-Jul-2024 18:31:00.674 INFO [https-jsse-nio-8543-exec-2] GetCodeServlet.doPost response code : 200
+28-Jul-2024 18:31:21.749 INFO [https-jsse-nio-8543-exec-5] GetCodeServlet.doGet code: N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE state: gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk session id: B45F67456958CCEFD1E235CE40D7014C user: Aditistate: gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk
+28-Jul-2024 18:31:21.750 INFO [https-jsse-nio-8543-exec-5] GetCodeServlet.doGet code N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE state gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk
+28-Jul-2024 18:31:21.750 INFO [https-jsse-nio-8543-exec-5] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+28-Jul-2024 18:31:21.757 INFO [https-jsse-nio-8543-exec-5] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=N6KHkaDMr_3uwrVeYG9Iz7l4LUVoL7gRHrWTyawSxxE&grant_type=authorization_code
+28-Jul-2024 18:55:07.170 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 18:55:07.193 INFO [https-jsse-nio-8543-exec-7] UserRequestServlet.doGet session_id4DA6FA52A0D76173A0A790E388145D88
+28-Jul-2024 18:55:07.231 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 18:55:07.299 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 18:55:07.302 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 18:55:07.309 INFO [https-jsse-nio-8543-exec-7] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=krUlzOSY03A05AlmADEuyS0vy_bHD7VTPTii5Fsth9s&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 18:55:10.563 INFO [https-jsse-nio-8543-exec-9] GetCodeServlet.doGet code: Uo4eqTBV_OKQy4KH-XTXdVr4fw98iOLvKJSuvfJ586Y state: krUlzOSY03A05AlmADEuyS0vy_bHD7VTPTii5Fsth9s session id: D9F297B019317DAEFDD8E0F4B51DCAF4 user: Aditistate: gsOUQzzzSDy8sVN4zbaltkX-Eg5z4VRKW4TyJ8CnMHk
+28-Jul-2024 18:58:40.032 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 18:58:40.034 INFO [https-jsse-nio-8543-exec-5] UserRequestServlet.doGet session_id83D5C5BCCA29D0FA9565770595FAF37F
+28-Jul-2024 18:58:40.038 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 18:58:40.043 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 18:58:40.044 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 18:58:40.045 INFO [https-jsse-nio-8543-exec-5] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=tte4pgdzfhCvJlYDQBHbf60lbkytHyMR5iOmpuVtdGY&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 18:58:41.918 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code: Drsmhcm8NPFn26-YZNNsHu49jnMCb2vYMPDxA0AozeQ state: tte4pgdzfhCvJlYDQBHbf60lbkytHyMR5iOmpuVtdGY session id: 499D160EC82B03CC57231F5C9DFFD04F user: Aditistate: tte4pgdzfhCvJlYDQBHbf60lbkytHyMR5iOmpuVtdGY
+28-Jul-2024 18:58:41.919 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet code Drsmhcm8NPFn26-YZNNsHu49jnMCb2vYMPDxA0AozeQ state tte4pgdzfhCvJlYDQBHbf60lbkytHyMR5iOmpuVtdGY
+28-Jul-2024 18:58:41.921 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+28-Jul-2024 18:58:41.936 INFO [https-jsse-nio-8543-exec-10] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=Drsmhcm8NPFn26-YZNNsHu49jnMCb2vYMPDxA0AozeQ&grant_type=authorization_code
+28-Jul-2024 19:08:42.830 INFO [https-jsse-nio-8543-exec-3] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 19:08:42.837 INFO [https-jsse-nio-8543-exec-3] UserRequestServlet.doGet session_idE1160E1E17CA0886C7AD3773F12D57C3
+28-Jul-2024 19:08:42.860 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 19:08:42.878 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 19:08:42.879 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 19:08:42.880 INFO [https-jsse-nio-8543-exec-3] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=O5Yz7jmn74lmgW4dUI3GMvBapvLFlwN7iu2zf95cDaI&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 19:08:48.023 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet code: _2J2m25-xmkSMlWs8v3Cll0QzgSvtkFIMhBVRLN_PoQ state: O5Yz7jmn74lmgW4dUI3GMvBapvLFlwN7iu2zf95cDaI session id: A5446C2A616E3C0983633C848DFEA7E9 user: Aditistate: O5Yz7jmn74lmgW4dUI3GMvBapvLFlwN7iu2zf95cDaI
+28-Jul-2024 19:08:48.027 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet code _2J2m25-xmkSMlWs8v3Cll0QzgSvtkFIMhBVRLN_PoQ state O5Yz7jmn74lmgW4dUI3GMvBapvLFlwN7iu2zf95cDaI
+28-Jul-2024 19:08:48.027 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+28-Jul-2024 19:08:48.030 INFO [https-jsse-nio-8543-exec-1] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=_2J2m25-xmkSMlWs8v3Cll0QzgSvtkFIMhBVRLN_PoQ&grant_type=authorization_code
+28-Jul-2024 19:12:22.923 INFO [https-jsse-nio-8543-exec-8] UserRequestServlet.doGet reached to doGet
+28-Jul-2024 19:12:22.924 INFO [https-jsse-nio-8543-exec-8] UserRequestServlet.doGet session_id63F3722B6BC1E1E2BC9ACB7823EEFDB1
+28-Jul-2024 19:12:22.932 INFO [https-jsse-nio-8543-exec-8] UserAuthorizationHandler.doGet ClientRepository
+28-Jul-2024 19:12:23.119 INFO [https-jsse-nio-8543-exec-8] UserAuthorizationHandler.doGet {"_id": {"$oid": "663a277bfaa9523498eac7cc"}, "client_id": "YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I", "client_secret": "fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d", "client_id_issued_at": {"$date": "2024-05-07T13:07:07Z"}, "jwks_uri": "https://oauth2server:8643/OAuth2Server/WebKeySet", "redirect_uri": "https://OAuth2Client:8543/OAuth2Client/GetCode"}
+28-Jul-2024 19:12:23.121 INFO [https-jsse-nio-8543-exec-8] UserAuthorizationHandler.doGet YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I
+28-Jul-2024 19:12:23.122 INFO [https-jsse-nio-8543-exec-8] UserAuthorizationHandler.doGet RequestQuery : response_type=code&redirect_uri=https%3A%2F%2FOAuth2Client%3A8543%2FOAuth2Client%2FGetCode&state=IveYcXS_OocYImEwrvOklvWT4V0_-igMra4GbSWceyI&client_id=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&scope=read+write
+28-Jul-2024 19:12:26.228 INFO [https-jsse-nio-8543-exec-7] GetCodeServlet.doGet code: ASj6G9AVUDZblXanPsAcAedtEWmyECkZt5Uaj6caxCY state: IveYcXS_OocYImEwrvOklvWT4V0_-igMra4GbSWceyI session id: A501785E9E7FBD0546C9FCF8EAF67BD5 user: Aditistate: IveYcXS_OocYImEwrvOklvWT4V0_-igMra4GbSWceyI
+28-Jul-2024 19:12:26.229 INFO [https-jsse-nio-8543-exec-7] GetCodeServlet.doGet code ASj6G9AVUDZblXanPsAcAedtEWmyECkZt5Uaj6caxCY state IveYcXS_OocYImEwrvOklvWT4V0_-igMra4GbSWceyI
+28-Jul-2024 19:12:26.230 INFO [https-jsse-nio-8543-exec-7] GetCodeServlet.doGet query2 : Document{{user=Aditi}}
+28-Jul-2024 19:12:26.232 INFO [https-jsse-nio-8543-exec-7] GetCodeServlet.doGet token url: https://oauth2server:8643/OAuth2Server/Token?clientID=YqcEqGPFfI77eWW15qZ_ZWM-0o-biww7bmzxaZ2kw4I&secret=fea2febd80a75cc783e8c0aeaf22b87886c23636c5634894accfebeb1140385d&code=ASj6G9AVUDZblXanPsAcAedtEWmyECkZt5Uaj6caxCY&grant_type=authorization_code

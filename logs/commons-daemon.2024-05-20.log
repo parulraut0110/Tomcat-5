@@ -1,0 +1,9 @@
+[2024-05-20 20:57:16] [info]  [ 5004] Apache Commons Daemon procrun (1.3.4.0 64-bit) started.
+[2024-05-20 20:57:16] [info]  [ 5004] Running Service 'Tomcat5'...
+[2024-05-20 20:57:16] [info]  [ 4000] Starting service...
+[2024-05-20 20:57:17] [info]  [ 4000] Service started in 1618 milliseconds.
+[2024-05-20 22:11:59] [info]  [21012] Console SHUTDOWN event signaled.
+[2024-05-20 22:11:59] [info]  [21012] Stopping service...
+[2024-05-20 22:12:00] [info]  [21012] Service stop thread completed.
+[2024-05-20 22:12:00] [info]  [ 5004] Run service finished.
+[2024-05-20 22:12:00] [info]  [ 5004] Apache Commons Daemon procrun finished.

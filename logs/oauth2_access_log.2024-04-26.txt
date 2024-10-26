@@ -1,0 +1,6 @@
+127.0.0.1 - - [26/Apr/2024:21:59:51 +0530] "GET /OAuth2Client/request?userid=27 HTTP/1.1" 500 1483
+127.0.0.1 - - [26/Apr/2024:21:59:51 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [26/Apr/2024:22:00:00 +0530] "GET /OAuth2Client/request?userid=27 HTTP/1.1" 500 1483
+127.0.0.1 - - [26/Apr/2024:22:07:23 +0530] "GET /OAuth2Client/request?userid=27 HTTP/1.1" 500 1576
+127.0.0.1 - - [26/Apr/2024:22:12:50 +0530] "GET /OAuth2Client/request?userid=27 HTTP/1.1" 500 1576
+127.0.0.1 - - [26/Apr/2024:22:36:44 +0530] "GET /OAuth2Client/request?userid=27 HTTP/1.1" 500 225

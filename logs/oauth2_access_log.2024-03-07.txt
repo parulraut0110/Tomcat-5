@@ -1,0 +1,12 @@
+127.0.0.1 - - [07/Mar/2024:20:18:39 +0530] "GET / HTTP/1.1" 200 11428
+127.0.0.1 - - [07/Mar/2024:20:18:47 +0530] "GET /OAuth2Client/ HTTP/1.1" 200 258
+127.0.0.1 - - [07/Mar/2024:20:18:52 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 1609
+127.0.0.1 - - [07/Mar/2024:20:21:34 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 1480
+127.0.0.1 - - [07/Mar/2024:20:21:39 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 1480
+127.0.0.1 - - [07/Mar/2024:20:33:30 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 500 1480
+127.0.0.1 - - [07/Mar/2024:20:41:26 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [07/Mar/2024:20:44:18 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [07/Mar/2024:20:46:27 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [07/Mar/2024:20:52:28 +0530] "GET /OAuth2Client HTTP/1.1" 302 -
+127.0.0.1 - - [07/Mar/2024:20:52:30 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -
+127.0.0.1 - - [07/Mar/2024:21:43:34 +0530] "POST /OAuth2Client/ClientRegistrationServlet HTTP/1.1" 200 -

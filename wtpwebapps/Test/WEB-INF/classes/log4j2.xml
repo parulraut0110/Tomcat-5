@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status = "info">
+   
+   <Properties>
+      <Property name = "basedir">c:/logs</Property>
+      <Property name = "fileHeader">time,userName,password</Property>
+   </Properties>
+   
+   <Appenders>
+      <Console name = "ConsoleAppender" target = "SYSTEM_OUT">
+        <PatternLayout pattern = "%d{ISO8601} [%t] %c{1} - %m%n"/>
+      </Console>
+       
+      <File name = "FileAppender" fileName = "${basedir}/XMLLog.log">
+        <PatternLayout pattern = "%d{ISO8601} [%t] %5p %c{1} - %m%n"/>
+        <ContextMapFilter onMatch = "ACCEPT">
+           <KeyValuePair key = "username" value = "Parul"/>  
+        </ContextMapFilter>   
+      </File>
+      
+      <Json name = "JsonFileAppender" fileName = "${basedir}/JsonLog.log">
+        <JsonLayout complete = "true"/>
+        <KeyValuePair key = "level" value = "$${level}"/>
+        <KeyValuePair key = "timestamp" value = "$${date:DD-MM-YY}"/>
+      </Json>
+      
+      <RollingFile name = "RollingFileAppender" fileName = "${basedir}/RollingFile.log"
+                   filePattern = "${basedir}/RollingFile%i.log">          
+        <MarkerFilter marker = "ADMIN" onMatch = "ACCEPT" />          
+        <PatternLayout pattern = "%d{ISO8601} [%t] %5level %c{1} - %m%n"/>
+  
+        <Policies>
+            <SizeBasedTriggeringPolicy size = "1 KB"/>
+        </Policies>
+        
+        <DefaultRollOverStrategy max = "3"/>
+        
+      </RollingFile> 
+      
+      <File name = "CsvFileAppender" fileName = "${basedir}/CSVLog.csv">
+        <CsvParameterLayout delimiter = "," header = "${fileHeader}\n"/>
+      </File>
+      
+   </Appenders>
+   
+   <Loggers>
+     <Root level = "debug" >
+      <AppenderRef ref = "ConsoleAppender"/> 
+      <AppenderRef ref = "FileAppender"/>
+      <AppenderRef ref = "CsvFileAppender"/>
+      <AppenderRef ref = "RollingFileAppender"/>
+      <Appender ref = "JsonFileAppender"/>
+     </Root>
+   </Loggers>
+   
+</Configuration>
+
+
